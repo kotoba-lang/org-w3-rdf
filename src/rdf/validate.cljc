@@ -13,7 +13,7 @@
   RDFS/OWL entailment-level checking belongs in `kotoba-lang/org-w3-owl2`,
   not here — this namespace never asks 'is this graph internally consistent
   under some vocabulary,' only 'is this term/triple/quad well-formed RDF.'"
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kotoba.dsl.problem :as problem]
             [rdf.core :as rdf]))
 
