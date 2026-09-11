@@ -96,5 +96,5 @@ it's kept as-is for backward compatibility.
 ## Test
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
